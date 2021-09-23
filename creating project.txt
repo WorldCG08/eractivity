@@ -27,3 +27,7 @@ cd ..\Application
 dotnet add reference ..\Persistence
 
 dotnet add reference ..\Domain
+
+cd ..\Persistense
+
+dotnet add reference ..\Domain
