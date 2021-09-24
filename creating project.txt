@@ -31,3 +31,15 @@ dotnet add reference ..\Domain
 cd ..\Persistense
 
 dotnet add reference ..\Domain
+
+--------------------------------------
+
+dotnet tool list --global
+
+nuget.org
+
+dotnet tool install --global dotnet-ef --version 5.0.1
+
+dotnet ef -h
+
+dotnet ef migrations add InitialCreate -p Persistence -s API
