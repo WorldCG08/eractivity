@@ -1,5 +1,5 @@
-aspapp/obj/*
-aspapp/bin/*
+**/obj
+**/bin
 packages/*
 aspapp/App_Data/*
 .vs/*
